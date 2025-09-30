@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import Button from "../../ui/Button";
-import { deleteItem } from "./cartSlice";
+import { deleteItem } from "./CartSlice";
 /* eslint-disable react/prop-types */
 
 export default function DeleteItem({pizzaId}) {
