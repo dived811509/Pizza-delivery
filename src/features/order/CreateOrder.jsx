@@ -8,7 +8,7 @@ import { clearCart, getCart, getTotalCartPrice } from "../cart/CartSlice"; // �
 import store from "../../store";
 import { formatCurrency } from "../../utils/helpers";
 import { useState } from "react";
-import { fetchAddress } from "../user/UserSlice"; // ✅ match file name
+import { fetchAddress } from "../user/userSlice"; // ✅ match file name
 
 // Phone validation
 const isValidPhone = (str) =>
